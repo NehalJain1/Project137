@@ -1,0 +1,41 @@
+body{
+background-size: cover;
+}
+#heading{
+    background-color: turquoise;
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    margin: 0px;
+    height: 80px;
+}
+#obj{
+    color: white;
+}
+input{
+    width: 70%;
+}
+button{
+    border-radius: 50%;
+    font-size: x-large;
+    background-color: #e1032c;
+    color: black;
+    padding: 0.5%;
+}
+canvas{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px grey;
+    }
+#status{ 
+    background-color: #ff03ff;
+    border: #ff03ff;
+    border-radius: 10px;
+    color: black;
+}
+#object_found{
+    background-color: #008dff;
+    border: #008dff;
+    border-radius: 10px;
+    color: black;
+}

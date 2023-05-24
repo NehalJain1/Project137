@@ -1,0 +1,42 @@
+<html>
+<head>
+
+	<title>AI Video Surveillance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="bg1.jpeg">
+
+<center>
+
+<h1 id="heading">AI OBJECT FINDER
+  <br>
+<span>It will detect only if the input name given by you matches the names present in CoCo model</span>
+</h1>
+<br>
+<h4 id="obj">Object Name:</h4>
+<input placeholder="Enter the name of the object you want to find" id="object_input">
+<br>
+<button onclick="start()" id="start">Start</button>
+<br>
+<h3 id="status" class="btn"></h3>
+<br>
+<h3 id="object_found" class="btn"></h3>
+</center>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
